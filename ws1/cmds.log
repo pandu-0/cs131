@@ -1,0 +1,204 @@
+    1  passwd
+    2  wget www.github.com
+    3  git --version
+    4  pwd
+    5  mkdir myproject
+    6  cd myproject
+    7  pwd
+    8  git init
+    9  touch newfile.txt
+   10  ls
+   11  pwd
+   12  ls -a
+   13  git status
+   14  logout
+   15  pwd
+   16  ls
+   17  ls -a
+   18  cd my*
+   19  ls
+   20  ls -a
+   21  git add newfile.txt
+   22  git status
+   23  git commit -m "first file commit"
+   24  git status
+   25  git commit -m "first commit"
+   26  git config --global manmohanbabu
+   27  git config --global user.name manmohanbabu23fa
+   28  git commit -m "first commit"
+   29  pwd
+   30  git checkout -b new_branch
+   31  git branch
+   32  git remote add origin https://github.com/pandu-0/CS131repo.git
+   33  git branch -M main
+   34  git push -u origin main
+   35  git status
+   36  git push -u origin main
+   37  ls
+   38  git status
+   39  git add newfile.txt
+   40  git status
+   41  git man add
+   42  git status
+   43  git push -u origin main
+   44  git remote add origin https://github.com/pandu-0/CS131repo.git
+   45  git brach -m main
+   46  git branch -M main
+   47  git push -u origin main
+   48  git status
+   49  git branch
+   50  ls
+   51  git add newfile.txt
+   52  git status
+   53  ls
+   54  git status
+   55  ls -a
+   56  ls .git
+   57  ls .git/branches
+   58  git commit -u origin main
+   59  git push -u origin main
+   60  pwd
+   61  ls
+   62  cd my*
+   63  ls
+   64  ls -a
+   65  ls .git
+   66  cd .git
+   67  ls
+   68  ls branches
+   69  git status
+   70  cd ..
+   71  ls
+   72  git statsu
+   73  git status
+   74  git checkout -b branch2
+   75  git branch
+   76  echo "the second file" > file2.txt
+   77  ls
+   78  git status
+   79  git add file2.txt
+   80  git status
+   81  git push -u origin branch2
+   82  git branch
+   83  ls
+   84  git branch
+   85  git status
+   86  git commit -m "second commit"
+   87  git status
+   88  cd ..
+   89  ls
+   90  rm -r my*
+   91  rm -rf my*
+   92  ls
+   93  man rm
+   94  pwd
+   95  mkdir myproject
+   96  ls
+   97  cd myproject
+   98  git init
+   99  echo "first file" > newfile.txt
+  100  ls
+  101  git status
+  102  git add newfile.txt
+  103  ls
+  104  git status
+  105  git commit -m "first commit"
+  106  git branch
+  107  git checkout -b "branch2"
+  108  ls
+  109  git branch
+  110  git remote add origin https://github.com/pandu-0/CS131repo.git
+  111  git branch -M main
+  112  git push -u origin main
+  113  git branch
+  114  git status
+  115  ls mian
+  116  ls main
+  117  git push origin master
+  118  git branch
+  119  git switch master
+  120  git status
+  121  git switch main
+  122  ls
+  123  cat newfile.txt
+  124  echo "second file" > file2.txt
+  125  ls
+  126  git status
+  127  git branch
+  128  git add file*
+  129  git commit -m "second commit"
+  130  git push origin main
+  131  git pull origin main
+  132  git status
+  133  git branch
+  134  git switch master
+  135  git pull
+  136  get pull main master
+  137  git branch
+  138  git pull origin master
+  139  git branch
+  140  git switch main
+  141  git switch master
+  142  git status
+  143  git branch -M branch2
+  144  git branch
+  145  git log
+  146  git swtich main
+  147  git switch main
+  148  git pull
+  149  pwd
+  150  cd ..
+  151  pwd
+  152  ls
+  153  cd my*
+  154  pwd
+  155  ls
+  156  git pull
+  157  cd ..
+  158  ls
+  159  rm index*
+  160  ls
+  161  cd *
+  162  ls -a
+  163  wget www.github.com
+  164  ls
+  165  git remote add origin https://github.com/pandu-0/cs131.git
+  166  git branch
+  167  git pull
+  168  git remote add origin https://github.com/pandu-0/cs131.git
+  169  git remote remove origin
+  170  git remote add origin https://github.com/pandu-0/cs131.git
+  171  git branch
+  172  git switch branch2
+  173  git status
+  174  git switch main
+  175  git switch branch2
+  176  mkdir ws1
+  177  history > cmds.log
+  178  ls
+  179  cat cmds.log
+  180  ls
+  181  mv cmds.log ws1
+  182  ls
+  183  cat ws1
+  184  ls ws1
+  185  ls
+  186  git add ws1
+  187  git status
+  188  git commit -m "ws1 commit"
+  189  git push origin main
+  190  git pull
+  191  cd ..
+  192  ls
+  193  rm -rf my*
+  194  ls
+  195  pwd
+  196  mkdir myproject
+  197  cd my*
+  198  git init
+  199  ls -a
+  200  mkdir ws1
+  201  wget www.github.com
+  202  ls
+  203  git status
+  204  history > cmds.log
