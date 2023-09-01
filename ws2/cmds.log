@@ -1,0 +1,59 @@
+  228  pwd
+  241   cp /datasets/taxidata.tar.gz .
+  242  ls
+  243  cp taxi* .
+  244  ls
+  245  tar zxvf taxi*
+  246  ls
+  247  ls taxidata
+  248  cat taxidata/*
+  249  ls
+  250  cd *
+  251  ls
+  252  ls taxidata
+  253  less taxidata
+  254  cd taxidata
+  255  ls
+  256  less 2019-01.csv
+  257  clear
+  258  ls
+  259  clear
+  260  ls
+  261  less *-03.csv
+  262  man grep
+  263  tail *-03.csv
+  264  head *-03.csv
+  265  tail *-03.csv
+  266  less *-03.csv
+  272  man grep
+  297  grep ".*,.*,\"2019-03-12.*" 2019-03.csv
+  298  man grep
+  299  grep ".*,.*,\"2019-03-12.*" 2019-03.csv | tail -n 20
+  300  grep ".*,.*,\"2019-03-12.*" 2019-03.csv | tail -n 20 > results.txt
+  301  ls
+  302  mv results* ..
+  303  cd ..
+  304  ls
+  305  less results
+  306  less results*
+  307  ls
+  308  mkdir ws2
+  309  mv results* ws2
+  310  ls
+  311  cd ws2
+  312  ls
+  313  grep ".*,.*,\"2019-03-12.*" 2019-03.csv | wc -l
+  314  cd ../taxidata
+  315  ls
+  316  grep ".*,.*,\"2019-03-12.*" 2019-03.csv | wc -l
+  317  cd ..
+  318  ls
+  319  cd ws2
+  320  ls
+  321  cat results*
+  322  wc -l *
+  323  266324 >> *
+  324  echo "266324" >> *
+  325  tail *
+  326  ls
+  327  history > cmds.log
