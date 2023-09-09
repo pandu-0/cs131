@@ -1,0 +1,45 @@
+2) Home directory path: /mnt/scratch/manmohanbabu23fa. cmd used: echo $HOME
+
+3) UID: "manmohanbabu23fa". cmd used: echo $USER
+I belong to group manmohanbabu23fa. Used cmd: compgen -g
+
+4) 
+Can you cd to that directory?
+> No
+Can you "ls" it?
+> Yes
+Can you "ls -l" it?
+> Yes
+Can you create files under it?
+> No, permissoin was denied.
+
+5)
+Are you allowed to "mv" the directory to "temp3"?
+> Yes
+Are you allowed to "cp" a directory?
+> Yes
+If you want to cp an entire directory, how would you do it?
+> Use the option "-r" which recursively copies everything inside the specified directory
+
+6)
+Which file contains information about the server memory?
+> /proc/meminfo contains the information about the server's memory.
+Which file contains information about the cpu's on your server?
+> /proc/cpuinfo contains the information about the server's CPU. 
+
+7)
+How much total memory is on your server?
+> MemTotal:       73080512 kB
+
+8)
+How many processors are on your server?
+> 255
+What is the processor architecture name?
+> POWER8
+What is the processor speed in GHz?
+> 3.425 GHz
+
+9) The operating system is Red Hat Linux 8.6 (Oopta). /etc/os-release contains this information.
+
+10) Read write and execute permissions are given for the file containing OS version info.
+

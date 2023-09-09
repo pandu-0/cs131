@@ -1,0 +1,49 @@
+  # Q1. Making Directory a1
+  379  mkdir a1
+
+  # Q2. cmds for HOME path, UID
+  384  echo $HOME
+  385  echo $USER
+
+  # Q3. make "temp" directory
+  386  mkdir temp
+
+  # Q2. Find group
+  397  compgen -g
+
+  # Q4. Remove execute permission, try ls, ls -l, cd, and try creating files
+  412  chmod -x temp
+  413  ls temp
+  414  cd temp
+  416  man chmod
+  433  ls temp
+  434  ls -l temp
+  435  echo "hello" > temp/file.txt #trying to create files under temp
+  
+  # Q5. Create temp2, mv temp2 to temp3, cp a directory, and cp an entire directory
+  437  mkdir temp2
+  449  mkdir temp3
+  459  mv temp2 temp3
+  461  cp -r temp3 temp4
+  463  ls temp4
+  
+  # Q6. find memory and cpu info
+  465  ls /proc
+  466  ls /proc | les
+  467  ls /proc | less
+  468  ls /proc meminfo
+  469  ls /proc/meminfo
+
+  # Q7. find total memory
+  470  less /proc/meminfo
+  
+  # Q8. use head, tail, cat to check the cpu information file
+  476  less /proc/cpuinfo
+
+  # Q9. Identify the operating system version. Which file is it under?
+  478  less /etc
+  479  ls /etc | less
+  480  less /etc/os-release
+
+  # Q10. permission for the file containing the OS version info
+  482  ls -l /etc  #this cmd shows "lrwxrwxrwx" for the permissions of the os file 
