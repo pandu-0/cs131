@@ -1,0 +1,20 @@
+  566  cd taxidata
+  568  cp 2019-01.csv ..
+  610  cut -d "," -f 8 2019-01.csv > pulocation.txt 
+  621  sort -n pu* > sorted-pulocation.txt
+  630  uniq -c sorted-pulocation.txt > count-puloc.txt
+  643  head count-puloc.txt 
+  645  tail count-puloc.txt 
+  646  sort -n count-puloc.txt > sorted-count-puloc.txt
+  649  tail sorted-count-puloc.txt 
+  650  touch ws3.txt
+  652  tail sorted-count-puloc.txt > ws3.txt
+  654  vim ws3.txt 
+  666  cut -d "," -f 8 2019-02.csv > pulocation-02.txt
+  669  tail pulocation-02.txt 
+  671  sort -n pulocation-02.txt > sorted-pulocation-02.txt
+  677  uniq -c sorted-pulocation-02.txt | sort -n > count-sorted-puloc-02.txt
+  681  tail count-sorted-puloc-02.txt >> ws3.txt 
+  682  vim ws3.txt 
+  686  pwd
+  687  history > cmds.log
