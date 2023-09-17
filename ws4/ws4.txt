@@ -17,7 +17,7 @@ Script done on 2023-09-16 20:24:57-04:00
 13415.5
 
 # num of trips from 79.0 to 125.0
-1487 79.0-125.0.txt
+1487
 
 # average fare amount from 79.0 to 125.0
 9.021
