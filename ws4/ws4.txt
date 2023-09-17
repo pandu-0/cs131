@@ -1,0 +1,32 @@
+Script started on 2023-09-16 20:24:52-04:00
+bash-4.4$ l
+total 967576
+drwxrwxr-x 2 manmohanbabu23fa manmohanbabu23fa      4096 Sep 15 21:19 FARE
+-rw-r--r-- 1 manmohanbabu23fa manmohanbabu23fa 879142625 Sep 16 16:38 2019-06.csv
+-rw-rw-r-- 1 manmohanbabu23fa manmohanbabu23fa 111636413 Sep 16 19:23 cut-lines.txt
+-rw-rw-r-- 1 manmohanbabu23fa manmohanbabu23fa      6353 Sep 16 19:49 79.0-125.0.txt
+-rw-rw-r-- 1 manmohanbabu23fa manmohanbabu23fa         0 Sep 16 20:24 ws4.txt
+bash-4.4$ w
+      6      47     417
+bash-4.4$ exit
+exit
+
+Script done on 2023-09-16 20:24:57-04:00
+
+# sum of all fare amounts from 79.0 to 125.0
+13415.5
+
+# num of trips from 79.0 to 125.0
+1487 79.0-125.0.txt
+
+# average fare amount from 79.0 to 125.0
+9.021
+
+# sum of all fare amounts from 145.0 to 145.0
+17115.4
+
+# num of trips from 145.0 to 145.0
+3066
+
+# average fare amount from 145.0 to 145.0
+5.582
