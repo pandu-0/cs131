@@ -1,0 +1,23 @@
+# sum of total fare amounts
+4509482.36
+# number of fare amounts
+252413
+# Q1 average amount paid by the customers (average of the total amount column)
+17.865
+# Q2 highest total amount paid by the customers
+99.96
+# Q3 Top 10 popular drop off locaiton when the passenger count is 3 or more
+236.0
+237.0
+161.0
+230.0
+170.0
+162.0
+48.0
+142.0
+239.0
+234.0
+# Q4 most popular dropoff location among the most popular pickup location of 2019-05-20 is 236.0 which occurs 52363 times
+  52363 236.0
+# Q5 most popular pickup location in 2019 is 237 which occurs 3639306 times
+3639306 237.0
