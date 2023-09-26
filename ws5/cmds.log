@@ -1,0 +1,12 @@
+# find the top 100 doloctions, when pulocation is 234
+  932  grep -E "^(([^,]*),){7}234\.0" 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -nr | head -100 >> top-100-doloc.txt
+  934  vim top-100-doloc.txt 
+  935  cut -d' ' -f2 top-100-doloc.txt >> top-100-doloc-filtered.txt
+  997  mv top-100-doloc-filtered.txt top-100-duloc.tx
+
+# make a shell script
+  943  touch loop.sh
+  945  nano loop.sh
+
+# run shell script; check loop.sh in github to view the bash loop used 
+ 1011  sh loop.sh &
