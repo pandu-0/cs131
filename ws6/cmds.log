@@ -1,0 +1,14 @@
+# task 1:
+ 1020  sed --silent '/^2.0/ p' 2019-11.csv >> vendor2.csv
+ 1022  wc vendor2.csv >> ws6.txt
+# task 2:
+ 1062  sed 's/://g; s/"//g; s/-//g' 2019-11.csv >> no-seperators.csv
+ 1069  head -10 no-seperators.csv >> no-seperators-head.csv
+# task 3:
+ 1089  sed --silent 's/\.[^,\n]*//g p' no-seperators.csv >> no-fractions.csv
+
+ 1109  head -10 vendor2.csv >> vendor2-head.csv
+
+ 1128  wc vendor2.csv >> ws6.txt; wc no-seperators.csv >> ws6.txt; wc no-fractions.csv >> ws6.txt
+
+ 1135  head -10 no-fractions.csv >> no-fractions-head.csv

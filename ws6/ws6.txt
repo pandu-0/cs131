@@ -1,0 +1,4 @@
+# wc of each task:
+  4505249  13515747 572448542 vendor2.csv
+  6878112  20634334 788386492 no-seperators.csv
+  6878111  20634333 474627418 no-fractions.csv
