@@ -1,0 +1,9 @@
+# task 1
+ 1029  awk -f task1.awk 2019-08.csv | sort -nr | head > a3.txt
+# task 2
+ 1098  awk -f task2.awk 2019-08.csv >> a3.txt 
+# task3
+ 1117  awk -f task3.awk 2019-08.csv | sed 1d | sort > tip-amount.dat
+# task4
+ 1136  awk -f task4.awk 2019-08.csv > travel-distance.dat
+
