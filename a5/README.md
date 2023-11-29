@@ -50,3 +50,7 @@ School,2163059
 Shounen,2134648  
 Adventure,1970463  
 Sci-Fi,1658090   
+
+### 2 Plots:  
+![histogram](./genre-histogram.png)  
+![box-plot](./my_score-box.png)  
