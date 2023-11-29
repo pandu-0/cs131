@@ -1,0 +1,25 @@
+  753  kaggle datasets download dbdmobile/myanimelist-dataset 
+  754  unzip Anime-dataset-2023.zip
+  762  sed 's/"//g' final_animedataset.csv > clean-data.csv
+  804  cut -d, -f5,13- final_animedataset.csv | sed -e 's/"//g' -e's/ //g' > clean2.csv
+  817  sed 's/$/,,,,,,,,,,,,,/' clean2.csv > cleaned-genres-csv
+  853  awk -f genre-count.awk clean2.csv > genre-count.txt
+  858  vim genre-count.plt
+  859  gnuplot
+  872  mv genre-count.txt genre-count.dat
+  912  vim male-genre-count.awk
+  922  awk -f male-genre-count.awk cleaned-genres-csv > male-genre-count.dat
+  926  vim male-genre-count.plt
+  928  gnuplot
+  936  vim female-genre-count.awk
+  938  awk -f female-genre-count.awk cleaned-genres-csv > female-genre-count.dat
+  941  vim female-genre-count.plt
+  943  gnuplot
+  960  sort -n male-genre-count.dat | head
+  961  sort -n female-genre-count.dat | head
+ 1026  awk -F, 'BEGIN {min=0} NR > 1 {if ($3 < min) { min = $3 }} END { print min}' final_animedataset.csv 
+ 1027  awk -F, 'BEGIN {max=0} NR > 1 {if ($3 > max) { max = $3 }} END { print max}' final_animedataset.csv 
+ 1032  vim my-score-box.plt
+ 1035  cut -d, -f3 final_animedataset.csv | sed '1 d' > my-score.dat
+ 1045  gnuplot
+ 1055  cat cmds.log
